@@ -7,11 +7,11 @@ from common import (
     create_csv
 )
 
-#tick = 'ICBP INDF JSMR MYOR PTBA TLKM UNVR'.split(' ')
-tick = 'TLKM UNVR'.split(' ')
+tick = 'ICBP INDF JSMR MYOR PTBA TLKM UNVR'.split(' ')
+#tick = 'TLKM UNVR'.split(' ')
 year = '2022'
 month = '04'
-date = '11 12 13 14 18 19 20 21 22'.split(' ')
+date = '25 26 27 28 29'.split(' ')
 
 if __name__ == "__main__":
     root = os.getcwd()
